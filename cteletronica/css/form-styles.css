@@ -1,0 +1,45 @@
+form {
+    /* Estilos para o elemento form */
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+input[type=text], input[type=password], select, textarea {
+    /* Estilos para campos de texto, campos de senha, selects e textareas */
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    /* Estilos para botões de submit */
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    /* Estilos para botões de submit quando o mouse está sobre eles */
+    background-color: #45a049;
+}
+
+/* Botoes das páginas (formularios) de cadastros*/
+.green-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.green-button:hover {
+    background-color: darkgreen;
+}

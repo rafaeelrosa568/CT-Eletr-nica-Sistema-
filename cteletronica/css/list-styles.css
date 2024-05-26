@@ -1,0 +1,74 @@
+/* Estilos para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilos para o cabeçalho da tabela */
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Estilos para as células da tabela */
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Estilos para as linhas da tabela ao passar o mouse */
+tr:hover {background-color: #ddd;}
+
+/* Estilos para as linhas ímpares da tabela */
+tr:nth-child(odd) {background-color: #f2f2f2;}
+
+/* Estilos para o botão de ação */
+.button {
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Estilos para o botão de ação ao passar o mouse */
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Botoes das páginas (tabelas) de listagens*/
+.green-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.green-button:hover {
+    background-color: darkgreen;
+}
+
+/* Estilos adicionais para a listagem (Pagina produtos vendidos) */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}

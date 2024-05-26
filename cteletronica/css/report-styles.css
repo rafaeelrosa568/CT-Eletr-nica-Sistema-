@@ -1,0 +1,40 @@
+/* Estilos para a tabela de relatórios */
+.report-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilos para o cabeçalho da tabela de relatórios */
+.report-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Estilos para as células da tabela de relatórios */
+.report-table td, .report-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Estilos para as linhas da tabela de relatórios ao passar o mouse */
+.report-table tr:hover {background-color: #ddd;}
+
+/* Estilos para as linhas ímpares da tabela de relatórios */
+.report-table tr:nth-child(odd) {background-color: #f2f2f2;}
+
+/* Estilos para o título do relatório */
+.report-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para o subtítulo do relatório */
+.report-subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+

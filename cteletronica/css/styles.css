@@ -1,0 +1,104 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Barra de navegação */
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Conteúdo principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Barra de navegação */
+nav {
+    background-color: #555;
+    padding: 0.5rem;
+    text-align: center; /* Centralizar o menu dos botões */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para o botão "Inicio" */
+.inicio-btn {
+    background-color: blue; /* Cor de fundo azul */
+    color: white; /* Cor do texto branca */
+    padding: 5px 10px; /* Ajuste de preenchimento para melhor visualização */
+    text-decoration: none; /* Remover sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave de cor de fundo */
+
+    /* Estilo do cursor ao passar o mouse */
+    cursor: pointer;
+}
+
+/* Estilo para o efeito hover */
+.inicio-btn:hover {
+    background-color: black; /* Cor de fundo preta ao passar o mouse */
+}
+
